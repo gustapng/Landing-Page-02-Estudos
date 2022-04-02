@@ -5,7 +5,7 @@ body{
     margin: 0px;
     padding: 15px;
     font-family: 'Roboto', sans-serif;
-    max-width: 1200px;
+    max-width: 1920px;
 }
 
 header{
@@ -34,7 +34,7 @@ ul a{
     color: #ff4f5a;
     transition: 500ms;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 ul a:hover{
@@ -277,5 +277,46 @@ img{
     nav.active #hamburguer::after{
         transform: rotate(-135deg);
         top: -7px;
+    }
+}
+
+@media(max-width: 1920px){
+    body{
+        width: 1920px;
+    }
+    
+    header{
+        width: 86%;
+        
+    }
+
+    main{
+        margin-left: 230px;
+        margin-top: 100px
+    }
+
+    #logo{
+        flex-direction: column;
+        line-height: 10px;
+        color: #ff4f5a;
+        margin-left: 0px;
+    }
+
+    img{
+        width: 700px;
+        margin-left: 160px;
+    }
+
+    #registro{
+        margin-top: 250px;
+    }
+
+    #register-btn{
+        width: 230px;
+        height: 65px;
+    }
+
+    #login-btn{
+        padding: 1.5rem;
     }
 }
