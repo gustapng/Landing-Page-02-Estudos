@@ -279,3 +279,37 @@ img{
         top: -7px;
     }
 }
+
+@media (min-width: 1800px){
+    header{
+        width: 150%;
+    }
+    
+    main{
+        margin-left: 170px;
+        margin-top: 80px;
+    }
+    
+    aside{
+        margin-right: 50px;
+    }
+
+    h2{
+        font-size: 4.3rem;
+        line-height: 4.3rem;
+    }
+
+    hr{
+        width: 450px;
+    }
+
+    span{
+        font-size: 6.1rem;
+        
+    }
+
+    img{
+        width: 800px;
+        margin-left: 100px;
+    }
+}
